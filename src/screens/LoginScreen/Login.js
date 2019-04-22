@@ -76,7 +76,7 @@ class Login extends React.Component {
                                     onChangeText={(e) => this.handleInputChange('password', e)} />
                             </Block>
                             <TouchableOpacity
-                                onPress={() => this.props.navigation.navigate('Crousel')}
+                                onPress={() => this.props.navigation.navigate('Chat')}
                                 style={{ flex: 0.12, width: "100%", marginBottom: 20 }}
                             >
                                 <Block white center middle style={{ borderRadius: 60 }}>
